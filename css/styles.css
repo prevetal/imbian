@@ -6216,7 +6216,7 @@ footer .creator a:hover span
 {
     color: var(--text_color);
 
-    position: static;
+    position: relative;
 
     display: none;
     visibility: visible !important;

@@ -988,6 +988,8 @@
     -----------*/
     .modal
     {
+        position: static;
+
         width: 100%;
         padding: 70px;
 
