@@ -1,0 +1,455 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 10px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination .links > * + *
+    {
+        margin-left: 10px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .search
+    {
+        display: none;
+    }
+
+
+    header .mob_menu_btn
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        padding: 16px 10px 40px;
+    }
+
+
+    aside .links
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block img
+    {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+
+    .text_block .gallery
+    {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+
+    .text_block .gallery .row,
+    .text_block .gallery .row.tablet_grid
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 20px);
+        margin: 0 -10px;
+        padding: 0 10px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .text_block .gallery .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .text_block .gallery .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .text_block .gallery .row > *,
+    .text_block .gallery .row.tablet_grid > *
+    {
+        display: inline-block;
+
+        width: 140px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+    }
+
+    .text_block .gallery .row > * + *,
+    .text_block .gallery .row.tablet_grid > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    .text_block .table_wrap
+    {
+        width: calc(100% + 20px);
+        max-width: calc(100% + 20px);
+        margin-top: 24px;
+        margin-right: -10px;
+        margin-bottom: 24px;
+        margin-left: -10px;
+        padding: 0 10px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .cont
+    {
+        height: 518px;
+    }
+
+
+    .main_slider .data:before
+    {
+        right: 148px;
+    }
+
+
+    .main_slider .desc
+    {
+        font-size: 13px;
+    }
+
+
+    .main_slider .video_link,
+    .main_slider .corners
+    {
+        display: none;
+    }
+
+
+    .main_slider .bullets
+    {
+        top: auto;
+        right: 0;
+        bottom: 20px;
+
+        display: flex;
+
+        width: 100%;
+
+        transform: none;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .main_slider .bullets > * + *
+    {
+        margin-top: 0;
+        margin-left: 8px;
+    }
+
+
+    .main_slider .bullets .sep
+    {
+        margin-right: 0;
+        margin-left: 8px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-left: -20px;
+    }
+
+    .advantages .row > *
+    {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+
+    .advantages .item
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-----------------
+        All country
+    -----------------*/
+    .all_country .block_head .title
+    {
+        font-size: 24px;
+    }
+
+
+    .all_country .flags > *
+    {
+        margin-left: 4px;
+    }
+
+
+    .all_country .flags img
+    {
+        width: 24px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .item
+    {
+        height: 72px;
+        padding: 11px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .vacancy
+    {
+        font-size: 14px;
+
+        padding: 6px 11px;
+    }
+
+
+    .vacancies .vacancy .name
+    {
+        width: calc(100% - 66px);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .item .map
+    {
+        height: 243px;
+    }
+
+
+
+    /*----------------
+        What we do
+    ----------------*/
+    .what_we_do .item
+    {
+        padding: 23px;
+    }
+
+
+
+    /*------------------
+        Intelligence
+    ------------------*/
+    .intelligence .item .title
+    {
+        font-size: 22px;
+    }
+
+
+    .intelligence .item .link a
+    {
+        font-size: 16px;
+
+        width: 240px;
+    }
+
+
+
+    /*--------------
+        Checkout
+    --------------*/
+    .checkout .success
+    {
+        padding: 17px 33px;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info .checkout
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+        padding: 44px 20px;
+    }
+
+
+    .cart_info .checkout .title
+    {
+        margin-bottom: 16px;
+    }
+
+    .cart_info .checkout .title br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .features > *
+    {
+        padding: 16px;
+    }
+
+
+
+    .product_info .images .thumbs
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .head
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------------
+        Category info
+    -------------------*/
+    .category_info .head
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .product .link
+    {
+        margin-top: 18px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .row
+    {
+        width: 100%;
+    }
+
+
+    .categories .category .info
+    {
+        padding: 50px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .location
+    {
+        width: 100%;
+    }
+
+
+    footer .location + .location
+    {
+        margin-top: 32px;
+        margin-left: 0;
+    }
+
+
+    footer .privacy_policy_link,
+    footer .creator
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .creator
+    {
+        margin-top: 8px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 10px;
+    }
+}

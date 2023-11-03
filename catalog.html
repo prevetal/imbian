@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#009640">
+		<meta name="theme-color" content="#009640">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont row">
+						<a href="/" class="logo">
+							<img src="images/logo.svg" alt="">
+						</a>
+
+						<nav class="menu row">
+							<button class="close_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="menu_item">
+								<a href="/">Продукция</a>
+							</div>
+
+							<div class="menu_item">
+								<a href="/" class="sub_link">
+									<span>О компании</span>
+									<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+								</a>
+
+								<div class="sub_menu">
+									<div><a href="/">О нас</a></div>
+									<div><a href="/">Вакансии</a></div>
+									<div><a href="/">Доставка и оплата</a></div>
+									<div><a href="/">Лицензии и сертификаты</a></div>
+								</div>
+							</div>
+
+							<div class="menu_item">
+								<a href="/">Cотрудничество</a>
+							</div>
+
+							<div class="menu_item">
+								<a href="/">Пресс-центр</a>
+							</div>
+
+							<div class="menu_item">
+								<a href="/">Контакты</a>
+							</div>
+						</nav>
+
+
+						<div class="btns">
+							<a href="tel:" class="btn phone_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+							</a>
+
+							<div class="search modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="search_modal">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Поиск товаров">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+									</form>
+								</div>
+							</div>
+
+							<a href="/" class="btn cart_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								<span class="count">8</span>
+							</a>
+						</div>
+
+
+						<button class="mob_menu_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+							<span>Меню</span>
+						</button>
+					</div>
+				</header>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a>
+							<svg class="sep"><use xlink:href="images/sprite.svg#ic_bread_sep"></use></svg>
+
+							<span class="current">Каталог продукции</span>
+						</div>
+
+						<h1 class="page_title">Каталог продукции</h1>
+					</div>
+				</section>
+
+
+				<section class="catalog content_flex block">
+					<div class="cont row">
+						<aside>
+							<div class="links">
+								<div class="item"><a href="/">
+									<span>Экспресс-тесты</span>
+								</a></div>
+
+								<div class="item">
+									<a href="/" class="sub_link">
+										<span>Тест-системы ИФА</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+									</a>
+
+									<div class="sub">
+										<div><a href="/">ВИЧ</a></div>
+										<div><a href="/">Респираторные инфекции</a></div>
+										<div><a href="/">Вирусные гепатиты</a></div>
+										<div><a href="/">ИППП</a></div>
+									</div>
+								</div>
+
+								<div class="item">
+									<a href="/" class="sub_link">
+										<span>ПЦР-тесты</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+									</a>
+
+									<div class="sub">
+										<div><a href="/">ВИЧ</a></div>
+										<div><a href="/">Респираторные инфекции</a></div>
+										<div><a href="/">Вирусные гепатиты</a></div>
+										<div><a href="/">ИППП</a></div>
+									</div>
+								</div>
+
+								<div class="item">
+									<a href="/" class="sub_link">
+										<span>Тест-системы ИХЛА</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+									</a>
+
+									<div class="sub">
+										<div><a href="/">ВИЧ</a></div>
+										<div><a href="/">Респираторные инфекции</a></div>
+										<div><a href="/">Вирусные гепатиты</a></div>
+										<div><a href="/">ИППП</a></div>
+									</div>
+								</div>
+
+								<div class="item">
+									<a href="/" class="sub_link">
+										<span>Диагностика заболеваний животных</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+									</a>
+
+									<div class="sub">
+										<div><a href="/">ВИЧ</a></div>
+										<div><a href="/">Респираторные инфекции</a></div>
+										<div><a href="/">Вирусные гепатиты</a></div>
+										<div><a href="/">ИППП</a></div>
+									</div>
+								</div>
+
+								<div class="item"><a href="/">
+									<span>Расходные материалы</span>
+								</a></div>
+
+								<div class="item"><a href="/">
+									<span>Сырье</span>
+								</a></div>
+
+								<div class="item"><a href="/">
+									<span>Спецодежда</span>
+								</a></div>
+
+								<div class="item"><a href="/">
+									<span>Оборудование</span>
+								</a></div>
+							</div>
+						</aside>
+
+
+						<section class="content">
+							<div class="head">
+								<button class="catalog_links_btn full_w">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+									<span>Навигация по каталогу</span>
+								</button>
+							</div>
+
+							<section class="categories">
+								<div class="row">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb1.jpg" alt="" class="lazyload">
+										</div>
+
+										<div class="info">
+											<div class="name">Экспресс-тесты</div>
+										</div>
+									</a>
+
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb2.jpg" alt="" class="lazyload">
+										</div>
+
+										<div class="info">
+											<div class="name">Тест-системы ИФА</div>
+										</div>
+									</a>
+
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb3.jpg" alt="" class="lazyload">
+										</div>
+
+										<div class="info">
+											<div class="name">ПЦР-тесты</div>
+										</div>
+									</a>
+
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb4.jpg" alt="" class="lazyload">
+										</div>
+
+										<div class="info">
+											<div class="name">Тест-системы ИХЛА</div>
+										</div>
+									</a>
+
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb5.jpg" alt="" class="lazyload">
+										</div>
+
+										<div class="info">
+											<div class="name">Диагностика заболеваний животных</div>
+										</div>
+									</a>
+
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb6.jpg" alt="" class="lazyload">
+										</div>
+
+										<div class="info">
+											<div class="name">Расходные материалы</div>
+										</div>
+									</a>
+
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb7.jpg" alt="" class="lazyload">
+										</div>
+
+										<div class="info">
+											<div class="name">Сырье</div>
+										</div>
+									</a>
+
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb8.jpg" alt="" class="lazyload">
+										</div>
+
+										<div class="info">
+											<div class="name">Спецодежда</div>
+										</div>
+									</a>
+
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb9.jpg" alt="" class="lazyload">
+										</div>
+
+										<div class="info">
+											<div class="name">Оборудование</div>
+										</div>
+									</a>
+								</div>
+							</section>
+						</section>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="data">
+					<div class="cont row">
+						<div class="col">
+							<div class="logo">
+								<img src="images/logo.svg" alt="">
+							</div>
+
+							<div class="copyright">&copy;2019-2023</div>
+						</div>
+
+						<div class="menu">
+							<div class="title">Навигация</div>
+
+							<div class="items">
+								<div class="menu_item"><a href="/">
+									<span>Продукция</span>
+								</a></div>
+
+								<div class="menu_item">
+									<a href="/" class="sub_link">
+										<span>О компании</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><a href="/">О нас</a></div>
+										<div><a href="/">Вакансии</a></div>
+										<div><a href="/">Доставка и оплата</a></div>
+										<div><a href="/">Лицензии и сертификаты</a></div>
+									</div>
+								</div>
+
+								<div class="menu_item"><a href="/">
+									<span>Cотрудничество</span>
+								</a></div>
+
+								<div class="menu_item"><a href="/">
+									<span>Пресс-центр</span>
+								</a></div>
+
+								<div class="menu_item"><a href="/">
+									<span>Контакты</span>
+								</a></div>
+							</div>
+						</div>
+
+						<div class="location">
+							<div class="title">Адрес</div>
+
+							<div class="address">
+								<div>Москва, Зеленоград</div>
+								<div>ул. Конструктора Лукина, д.14 с.12</div>
+							</div>
+
+							<div class="phone">
+								<a href="tel:+74999578334">+7 (499) 957-83-34</a>
+							</div>
+						</div>
+
+						<div class="location">
+							<div class="title">Адрес</div>
+
+							<div class="address">
+								<div>Новосибирская обл.</div>
+								<div>р.п. Кольцово, ул. Садовая, 2/7</div>
+							</div>
+
+							<div class="phone">
+								<a href="tel:+73832093454">+7 (383) 209-34-54</a>
+							</div>
+						</div>
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:88006009077">8 (800) 600-90-77</a>
+							</div>
+
+							<div class="email">
+								<a href="mailto:info@imbian.ru">info@imbian.ru</a>
+							</div>
+
+							<button class="feedback_btn modal_btn" data-modal="feedback_modal">Обратная связь</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="privacy_policy_link">
+							<a href="/">Политика конфиденциальности</a>
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_hh"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<img src="images/ic_dzen.png" alt="">
+							</a>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener">Разработка сайта <span>Kilev Lab</span></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<section class="modal" id="feedback_modal">
+			<div class="modal_title">Оставить заявку</div>
+
+			<div class="modal_desc">Укажите ваши контакты, мы свяжемся с вами для консультации </div>
+
+			<form action="" class="form">
+				<div class="columns">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+
+							<div class="label">Ваше имя<span class="required">*</span></div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input">
+
+							<div class="label">E-mail</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+
+							<div class="label">Ваше имя<span class="required">*</span></div>
+						</div>
+					</div>
+
+					<div class="line file">
+						<div class="field">
+							<label>
+								<input type="file" name="file">
+								<div>
+									<span>Прикрепить файл</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_file"></use></svg>
+								</div>
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<textarea name=""></textarea>
+
+						<div class="label">Комментарий</div>
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить заявку</button>
+				</div>
+
+				<div class="agree">
+					Соглашаюсь с <a href="/" target="_blank">политикой конфиденциальности</a>
+				</div>
+			</form>
+
+			<div class="success">Спасибо, ваша заявка успешно отправлена!</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+<svg width="67" height="47" viewBox="0 0 67 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flags / IQ">
+<rect id="Mask" x="0.996094" y="0.25" width="65.485" height="46.5" rx="1.75" fill="white" stroke="#F5F5F5" stroke-width="0.5"/>
+<mask id="mask0_372_9267" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="67" height="47">
+<rect id="Mask_2" x="0.996094" y="0.25" width="65.485" height="46.5" rx="5.75" fill="white" stroke="white" stroke-width="0.5"/>
+</mask>
+<g mask="url(#mask0_372_9267)">
+<path id="Rectangle 2" fill-rule="evenodd" clip-rule="evenodd" d="M0.746094 15.6667H66.7311V0H0.746094V15.6667Z" fill="#DF1E35"/>
+<path id="Rectangle 2_2" fill-rule="evenodd" clip-rule="evenodd" d="M0.746094 47.0002H66.7311V31.3335H0.746094V47.0002Z" fill="#262626"/>
+<path id="Rectangle 213" fill-rule="evenodd" clip-rule="evenodd" d="M44.7363 19.3384C44.7363 19.0908 44.9968 18.9296 45.2184 19.0401L47.6946 20.2744C47.8077 20.3308 47.8792 20.4464 47.8792 20.5728V27.8665C47.8792 28.0506 47.7299 28.1998 47.5459 28.1998H45.0697C44.8856 28.1998 44.7363 28.0506 44.7363 27.8665V19.3384Z" fill="#0F7A40"/>
+<path id="Rectangle 213_2" fill-rule="evenodd" clip-rule="evenodd" d="M25.8848 19.3384C25.8848 19.0908 26.1452 18.9296 26.3668 19.0401L28.843 20.2744C28.9561 20.3308 29.0276 20.4464 29.0276 20.5728V27.8665C29.0276 28.0506 28.8784 28.1998 28.6943 28.1998H26.2181C26.034 28.1998 25.8848 28.0506 25.8848 27.8665V19.3384Z" fill="#0F7A40"/>
+<path id="Rectangle 213_3" fill-rule="evenodd" clip-rule="evenodd" d="M38.4521 20.5728C38.4521 20.4464 38.5236 20.3308 38.6368 20.2744L41.113 19.0401C41.3346 18.9296 41.595 19.0908 41.595 19.3384V27.8665C41.595 28.0506 41.4458 28.1998 41.2617 28.1998H38.7855C38.6014 28.1998 38.4521 28.0506 38.4521 27.8665V20.5728Z" fill="#0F7A40"/>
+<path id="Rectangle 213_4" fill-rule="evenodd" clip-rule="evenodd" d="M32.1689 23.7063C32.1689 23.5799 32.2404 23.4644 32.3535 23.408L34.829 22.1737C35.0506 22.0633 35.3111 22.2244 35.3111 22.4721V25.207H40.0243V28.2001H35.3111H32.5023C32.3182 28.2001 32.1689 28.0508 32.1689 27.8667V23.7063Z" fill="#0F7A40"/>
+<path id="Rectangle 213_5" fill-rule="evenodd" clip-rule="evenodd" d="M19.5977 23.7063C19.5977 23.5799 19.6691 23.4644 19.7823 23.408L22.2577 22.1737C22.4793 22.0633 22.7398 22.2244 22.7398 22.4721V25.207H27.453V28.2001H22.7398H19.931C19.7469 28.2001 19.5977 28.0508 19.5977 27.8667V23.7063Z" fill="#0F7A40"/>
+</g>
+</g>
+</svg>

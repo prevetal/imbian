@@ -1,0 +1,1004 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+    }
+
+
+    .cont
+    {
+        padding: 0 70px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 64px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__backdrop
+    {
+        background: #fff;
+    }
+
+
+    .fancybox__slide
+    {
+        padding: 0;
+
+        border-top: 60px solid #11161a;
+    }
+
+
+    .modal.fancybox__content > .carousel__button.is-close
+    {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .modal.fancybox__content > .carousel__button.is-close svg
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination,
+    .pagination > * + *
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        flex-wrap: wrap;
+    }
+
+
+    .tabs .btn
+    {
+        width: 100%;
+        padding: 16px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 125px;
+    }
+
+
+
+    header .btns .btn
+    {
+        width: 44px;
+        height: 44px;
+    }
+
+
+    header .mob_menu_btn
+    {
+        padding: 11px 18px;
+    }
+
+
+    header .search .input
+    {
+        font-size: 16px;
+
+        height: 56px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        left: 70px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 24px;
+        padding-top: 52px;
+    }
+
+    .page_head.mob_empty
+    {
+        margin: 0;
+    }
+
+
+    .breadcrumbs
+    {
+        display: none;
+    }
+
+
+    .page_title
+    {
+        text-align: center;
+    }
+
+    * + .page_title
+    {
+        margin-top: 0;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        display: block;
+
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+
+
+    .block_head .exp
+    {
+        width: 315px;
+        max-width: 100%;
+        margin-top: 12px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .block_head .exp img
+    {
+        display: none;
+    }
+
+    .block_head .exp span
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 24px;
+    }
+
+    .text_block h3
+    {
+        font-size: 20px;
+    }
+
+
+    .text_block * + h2,
+    .text_block * + h3
+    {
+        margin-top: 24px;
+    }
+
+
+    .text_block img
+    {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+
+    .text_block ul
+    {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 10px;
+    }
+
+
+    .text_block .gallery .row.tablet_grid
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+
+        flex-wrap: wrap;
+    }
+
+    .text_block .gallery .row.tablet_grid > *,
+    .text_block .gallery .row.tablet_grid > * + *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .text_block table th + th,
+    .text_block table td + td
+    {
+        padding-left: 24px;
+    }
+
+    .text_block table th:first-child,
+    .text_block table td:first-child
+    {
+        padding-left: 24px;
+    }
+
+    .text_block table th:last-child,
+    .text_block table td:last-child
+    {
+        padding-right: 24px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .cont
+    {
+        height: 655px;
+    }
+
+
+    .main_slider .bullets
+    {
+        right: 70px;
+    }
+
+
+    .main_slider .bullets > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .main_slider .bullets .btn
+    {
+        width: 16px;
+        height: 16px;
+        padding: 0;
+    }
+
+    .main_slider .bullets .btn span
+    {
+        display: none;
+    }
+
+
+    .main_slider .video_link
+    {
+        left: 70px;
+    }
+
+
+    .main_slider .mouse
+    {
+        display: none;
+    }
+
+
+    .main_slider .corners
+    {
+        right: 70px;
+        bottom: 43px;
+    }
+
+
+
+    /*--------------------
+        Our production
+    --------------------*/
+    .our_production .row
+    {
+        width: 460px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .our_production .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .our_production .all_link
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats
+    {
+        padding: 52px 0;
+    }
+
+
+    .stats .bg
+    {
+        display: none;
+    }
+
+    .stats .mob_bg
+    {
+        display: block;
+    }
+
+
+    .stats .row
+    {
+        width: 300px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .stats .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 52px 0;
+    }
+
+
+    .advantages .block_title
+    {
+        font-size: 26px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .advantages .data
+    {
+        width: 360px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .advantages .row > *
+    {
+        width: calc(50% - 40px);
+    }
+
+
+
+    /*-----------------
+        All country
+    -----------------*/
+    .all_country .block_head
+    {
+        margin-bottom: -86px;
+    }
+
+
+    .all_country .flags
+    {
+        margin-top: 24px;
+        margin-left: -16px;
+    }
+
+    .all_country .flags > *
+    {
+        margin-left: 16px;
+    }
+
+
+    .all_country .flags img
+    {
+        width: 42px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 64px 0;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info
+    {
+        padding: 156px 0;
+    }
+
+
+    .error_info .title
+    {
+        font-size: 22px;
+    }
+
+
+    .error_info .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .error_info .code
+    {
+        font-size: 150px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+        padding: 0;
+    }
+
+    .articles .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .articles .article .info
+    {
+        padding: 24px 19px 39px;
+    }
+
+    .articles .article .name
+    {
+        font-size: 18px;
+    }
+
+    .articles .article .desc
+    {
+        -webkit-line-clamp: 4;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info
+    {
+        padding-top: 48px;
+    }
+
+
+    .article_info .title
+    {
+        font-size: 26px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .article_info .back
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .vacancy
+    {
+        font-size: 16px;
+
+        padding: 6px 23px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        margin-left: 0;
+    }
+
+    .contacts_info .data > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .item .city
+    {
+        font-size: 22px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .contacts_info .item .email
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .person .photo
+    {
+        width: 140px;
+        height: 140px;
+    }
+
+
+    .persons .person .post
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .data
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .about_info .image
+    {
+        width: 480px;
+        max-width: 100%;
+        margin-top: 52px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*----------------
+        What we do
+    ----------------*/
+    .what_we_do .row
+    {
+        width: 460px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-bottom: -16px;
+        margin-left: auto;
+    }
+
+    .what_we_do .row > *
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Intelligence
+    ------------------*/
+    .intelligence .item .title
+    {
+        font-size: 24px;
+
+        text-align: center;
+    }
+
+    .intelligence .item .title:after
+    {
+        right: 0;
+        left: 0;
+
+        width: 265px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .intelligence .item .desc
+    {
+        text-align: center;
+    }
+
+
+    .intelligence .item .link
+    {
+        justify-content: center;
+    }
+
+
+    .intelligence .item .link a
+    {
+        width: 268px;
+        max-width: 100%;
+    }
+
+    .intelligence .item .link a span
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*--------------
+        Checkout
+    --------------*/
+    .checkout .success
+    {
+        padding: 17px 124px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        width: 100%;
+        margin-top: 36px;
+
+        order: 2;
+    }
+
+
+    .product_info .images + .data
+    {
+        width: 100%;
+    }
+
+
+    .product_info .features > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+
+    .product_info .tabs_container
+    {
+        margin-top: 36px;
+
+        order: 3;
+    }
+
+
+    .product_info .tabs
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-------------------------
+        Product description
+    -------------------------*/
+    .product_desc .text_block
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------------
+        Product features
+    ----------------------*/
+    .product_features table
+    {
+        width: 1024px;
+    }
+
+
+    .product_features table th + th,
+    .product_features table td + td
+    {
+        padding-left: 24px;
+    }
+
+
+    .product_features table th
+    {
+        font-size: 16px;
+
+        padding-bottom: 1px;
+    }
+
+
+
+    /*-----------------------
+        Catalog links btn
+    -----------------------*/
+    .catalog_links_btn
+    {
+        width: calc(50% - 10px);
+    }
+
+    .catalog_links_btn.full_w
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .search
+    {
+        width: calc(50% - 10px);
+        margin-left: auto;
+    }
+
+
+    .catalog .search .input
+    {
+        font-size: 16px;
+
+        height: 54px;
+    }
+
+
+    .catalog .empty
+    {
+        font-size: 16px;
+
+        padding: 19px;
+    }
+
+
+
+    /*-------------------
+        Category info
+    -------------------*/
+    .category_info .search
+    {
+        width: calc(50% - 10px);
+        margin-left: auto;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .product
+    {
+        padding: 27px 23px;
+    }
+
+
+    .products .product .name
+    {
+        font-size: 18px;
+    }
+
+
+    .products .product .features
+    {
+        max-width: calc(100% + 32px);
+        margin-top: 24px;
+        margin-left: -32px;
+    }
+
+
+    .products .product .features > *
+    {
+        margin-left: 32px;
+    }
+
+
+    .products .product .features .label
+    {
+        font-size: 18px;
+    }
+
+
+    .products .product .link
+    {
+        margin-top: 24px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .row > *,
+    .content .categories .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .data .cont
+    {
+        justify-content: center;
+    }
+
+
+
+    footer .logo img
+    {
+        width: 125px;
+    }
+
+
+
+    footer .contacts
+    {
+        width: 100%;
+        margin-bottom: 36px;
+
+        text-align: center;
+    }
+
+
+
+    footer .menu
+    {
+        width: 100%;
+        margin-bottom: 36px;
+
+        text-align: center;
+
+        order: 2;
+    }
+
+
+    footer .menu .menu_item > a
+    {
+        margin-right: auto;
+        margin-left: auto;
+
+        justify-content: center;
+    }
+
+
+    footer .menu .sub_menu
+    {
+        right: 0;
+        left: 0;
+
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+
+
+
+    footer .location
+    {
+        text-align: center;
+
+        order: 3;
+    }
+
+    footer .location + .location
+    {
+        margin-left: 40px;
+    }
+
+
+
+    footer .privacy_policy_link,
+    footer .creator
+    {
+        font-size: 12px;
+    }
+
+
+
+    footer .socials a + a
+    {
+        margin-left: 10px;
+    }
+
+
+    footer .socials img,
+    footer .socials .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 100%;
+        padding: 70px;
+
+        border-radius: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+
+    .modal_title
+    {
+        font-size: 28px;
+    }
+}
